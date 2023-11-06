@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 34px 0 90px;
+}
+
+.header__logo {
+    width: 270px;
+    height: 70px; 
+}

@@ -1,0 +1,97 @@
+.place {
+    padding: 80px 0 0;
+}
+
+.place:first-of-type {
+    padding: 0;
+}
+
+.place__heading {
+    display: flex;
+    column-gap: 40px;
+    align-items: flex-end;
+}
+
+.place__title {
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 76px;
+    max-width: 460px;
+    margin: 0;
+}
+
+.place__url-heading {
+    color: #AAA;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+    margin: 0 0 8px;
+}
+
+.place__artist-url {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.place__content {
+    padding: 48px 0 0;
+    gap: 40px;
+    display: flex;
+}
+
+.place__image-wrapper {
+    width: 460px;
+    height: 460px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.place__image {
+    height: 100%;
+    width: 100%;
+}
+
+.place__text {
+    max-width: 484px;
+}
+
+.place__paragraph {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 163%;
+}
+
+.place__nft-button {
+    border: none;
+    border-radius: 4px;
+    background-color: #0278FE;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    display: inline-flex;
+    padding: 13px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 48px 0 80px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.place__nft-button:hover {
+    background-color: #0063D2;
+}
