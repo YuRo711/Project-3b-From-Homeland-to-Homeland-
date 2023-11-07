@@ -6,6 +6,7 @@
     position: relative;
     padding: 0;
     margin: 0 auto;
+    max-width: 100vw;
     width: 1184px;
     height: 740px; 
     background-image: url('../images/cover.png');
@@ -84,9 +85,5 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .cover {
         padding: 92px 0 88px;
-    }
-    
-    .cover__background {
-        width: 100vw;
     }
 }

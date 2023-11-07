@@ -18,7 +18,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: 76px;
-    max-width: 460px;
+    width: 460px;
     margin: 0;
 }
 
@@ -72,6 +72,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 163%;
+    margin: 0;
 }
 
 .place__nft-button {

@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
-    max-width: 1184px;
+    max-width: min(1184px, 95%);
     padding: 118px 0 0;
     margin: 0 auto;
     justify-content: center;
@@ -15,7 +15,6 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .photos {
         grid-template-columns: repeat(2, 1fr);
-        max-width: 95%;
         padding: 90px 0 0;
     }
 }
