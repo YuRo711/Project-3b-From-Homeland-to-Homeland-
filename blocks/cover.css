@@ -80,3 +80,13 @@
 .cover__tickets-button:hover {
     background-color: #0063D2;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .cover {
+        padding: 92px 0 88px;
+    }
+    
+    .cover__background {
+        width: 100vw;
+    }
+}

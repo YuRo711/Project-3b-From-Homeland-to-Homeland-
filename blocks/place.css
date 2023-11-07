@@ -95,3 +95,32 @@
 .place__nft-button:hover {
     background-color: #0063D2;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .place {
+        padding: 72px 0 0;
+    }
+
+    .place__heading {
+        column-gap: 28px;
+    }
+
+    .place__title {
+        width: 340px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .place__content {
+        column-gap: 28px;
+    }
+
+    .place__image-wrapper {
+        height: 340px;
+        width: 340px;
+    }
+
+    .place__paragraph {
+        font-size: 16px;
+    }
+}

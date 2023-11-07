@@ -45,3 +45,10 @@
     line-height: 163%;
     margin: 32px 0 0;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .intro {
+        padding: 88px 0 0;
+        max-width: 720px;
+    }
+}
