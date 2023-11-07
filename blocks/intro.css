@@ -1,6 +1,6 @@
 .intro {
     padding: 92px 0 0;
-    max-width: min(984px, 95%);
+    max-width: min(984px, calc(100vw - 32px));
     margin: 0 auto;
 }
 
@@ -46,9 +46,16 @@
     margin: 32px 0 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
     .intro {
         padding: 88px 0 0;
         max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
     }
 }
